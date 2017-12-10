@@ -14,6 +14,7 @@
 
   - wheel
   - flask
-  - flask-sqlalchemy
+  - flask-login
   - flask-migrate
+  - flask-sqlalchemy
   - flask-wtf
