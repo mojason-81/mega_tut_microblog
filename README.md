@@ -3,18 +3,11 @@
 ## Notes
 
   - Written and tested with Python3
-  - May need to install python3-venv
+  - May need to install python3-venv package
   - Generate venv in root directory and install packages via pip
+  - Don't forget to `source venv/bin/activate` to activate the virtual env
   - When running `flask run` make sure to...
     - `export FLASK_APP=microblog.py` before you try.
   - To get a Python interpreter in scope of the app...
     - `flask shell`
-
-## Things you need to install via pip
-
-  - wheel
-  - flask
-  - flask-login
-  - flask-migrate
-  - flask-sqlalchemy
-  - flask-wtf
+  - When you're all done fiddling around, don't forget to `deactivate` the virtual env
