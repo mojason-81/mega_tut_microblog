@@ -1,5 +1,6 @@
 wheel
 flask
+flask-bootstrap
 flask-login
 flask-mail
 flask-migrate
