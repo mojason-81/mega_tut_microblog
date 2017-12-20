@@ -1,5 +1,6 @@
 wheel
 flask
+flask-babel
 flask-bootstrap
 flask-login
 flask-mail
