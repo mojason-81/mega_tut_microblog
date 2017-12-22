@@ -10,3 +10,4 @@ flask-sqlalchemy
 flask-wtf
 guess-language_spirit
 pyjwt
+requests
