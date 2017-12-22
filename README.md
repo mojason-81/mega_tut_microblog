@@ -1,5 +1,11 @@
 # mega_tut_microblog
 
+Working through the Flask Mega-Tutorial.  This is the product
+of that endeavor.
+
+Find the tutorial / eBook here:
+  - https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
+
 ## Notes
 
   - Written and tested with Python3
