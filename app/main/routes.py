@@ -10,7 +10,11 @@ from app.models import User, Post
 from app.translate import translate
 from app.main import bp
 
-
+@bp.route('/user/<username>/popup')
+@login_required
+def user_popup(username):
+    user = User.query.filter_by(username=username).first_or_404()
+    return render_template('user_popup.html', user=user)
 
 @bp.before_app_request
 def before_request():
