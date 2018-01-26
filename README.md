@@ -17,3 +17,6 @@ Find the tutorial / eBook here:
   - To get a Python interpreter in scope of the app...
     - `flask shell`
   - When you're all done fiddling around, don't forget to `deactivate` the virtual env
+  - If you get some weird error when updating tranlations such as:
+    - `pkg_resources.extern.packaging.markers.UndefinedEnvironmentName: 'extra' does not exist in evaluation environment.`
+    - Try updating setuptools pkg via `pip install --upgrade setuptools`
